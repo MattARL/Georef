@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cps.jpg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    margin-right: 900px;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .d-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bi-person-circle {
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0; /* Adiciona margem superior e inferior */
+  padding: 10px; /* Adiciona preenchimento */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo mais escuro */
+  color: white; /* Cor do texto */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #cacaca;
+    text-align: center;
+    margin: 10px 0; /* Adiciona margem superior e inferior */
+  padding: 10px; /* Adiciona preenchimento */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo mais escuro */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra mais escura */
+  }
+  
+  .btn {
+    margin-bottom: 10px;
+  }
+  
+
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  

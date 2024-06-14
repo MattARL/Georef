@@ -1,0 +1,13 @@
+.drawer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 56px; /* drawer abaixo do navbarr */
+    width: 80%;
+    height: calc(100% - 56px); /* a altura do navbar influencia pro drawer aparecer abaixo */
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    padding-top: 60px;
+}
